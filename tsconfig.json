@@ -1,20 +1,37 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "emitDeclarationOnly": true,
+    "noEmit": false,
+    "outDir": "dist",
+    "downlevelIteration": true,
+    "target": "esnext",
     "module": "esnext",
     "strict": true,
     "jsx": "preserve",
+    "declaration": true,
     "importHelpers": true,
     "moduleResolution": "node",
-    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "strictNullChecks": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true,
-    "useDefineForClassFields": true,
     "sourceMap": true,
     "baseUrl": ".",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
     "types": [
-      "webpack-env"
+      "vuetify",
+      "webpack-env",
+      "node",
+      "@types/jest"
     ],
     "paths": {
       "@/*": [
@@ -32,8 +49,8 @@
     "src/**/*.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
-    "tests/**/*.ts",
-    "tests/**/*.tsx"
+    "types/*.ts",
+    "types/**/*.ts"
   ],
   "exclude": [
     "node_modules"

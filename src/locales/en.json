@@ -1,3 +1,19 @@
 {
-  "message": "hello i18n !!"
+  "language": "Language",
+  "ru": "Russian",
+  "en": "English",
+  "pageTitle": "Facts about cats",
+  "fiveItemsOnPage": "5 items",
+  "tenItemsOnPage": "10 items",
+  "fifteenItemsOnPage": "15 items",
+  "itemsPerPage": "Items per page",
+  "tabelHeader-_id": "Item id",
+  "tabelHeader-user": "User id",
+  "tabelHeader-text": "Text",
+  "tabelHeader-type": "Type",
+  "tabelHeader-createdAt": "Created At",
+  "tabelHeader-updatedAt": "Updated At",
+  "setColumn": "Set column",
+  "close": "Close",
+  "toList": "To list"
 }

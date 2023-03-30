@@ -1,3 +1,19 @@
 {
-  "message": "Привет i18n !!"
+  "language": "Язык",
+  "ru": "Русский",
+  "en": "English",
+  "pageTitle": "Факты о котах",
+  "fiveItemsOnPage": "5 элементов",
+  "tenItemsOnPage": "10 элементов",
+  "fifteenItemsOnPage": "15 элементов",
+  "itemsPerPage": "Элементов на страницу",
+  "tabelHeader-_id": "Id Элемента",
+  "tabelHeader-user": "Id Пользователя",
+  "tabelHeader-text": "Текст",
+  "tabelHeader-type": "Тип",
+  "tabelHeader-createdAt": "Создано",
+  "tabelHeader-updatedAt": "Обновлено",
+  "setColumn": "Настроить колонки",
+  "close": "Закрыть",
+  "toList": "К списку"
 }

@@ -30,8 +30,10 @@
     "sass": "^1.32.7",
     "sass-loader": "^12.0.0",
     "typescript": "~4.5.5",
+    "vue-class-component": "^7.2.6",
     "vue-cli-plugin-i18n": "~2.3.2",
     "vue-cli-plugin-vuetify": "~2.5.8",
+    "vue-property-decorator": "^9.1.2",
     "vue-template-compiler": "^2.6.14",
     "vuetify-loader": "^1.7.0"
   },
@@ -49,7 +51,9 @@
       "ecmaVersion": 2020
     },
     "rules": {
-      "vue/multi-word-component-names": 0
+      "vue/multi-word-component-names": 0,
+      "@typescript-eslint/no-inferrable-types": "off",
+      "no-undef": "off"
     }
   },
   "browserslist": [
